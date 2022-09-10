@@ -12,7 +12,7 @@ body{
     margin: 0;
 }
 
-#container{
+.container{
     text-align: center;
 }
 
@@ -45,6 +45,23 @@ body{
     font-family: 'Oswald', sans-serif;
     color: var(--border-color);
 }
+
+#output {
+    margin: auto;
+    text-align: center;
+    margin: 3rem 0rem 3rem 0rem;
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    color: var(--border-color);
+    background-color: white;
+    display: inline;
+    padding: 0.2rem;
+}
+
+.container1 {
+    margin-top: 5rem;
+    text-align: center;
+}
   
   .button {
     width: 140px;
@@ -69,5 +86,28 @@ body{
   }
 
 @media screen and (max-width: 576px) {
-    
+    #navBar-heading {
+        font-size: 3rem;
+    }
+
+    #input {
+        font-size: 0.9rem;
+        width: 70%;
+        height: 18vh;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #hero-image {
+        width: 15rem;
+    }
+
+    #output {
+       font-size: 2rem;
+       margin-top: 2rem;
+    }
+
+    .container1{
+        margin-top: 3rem;
+    }
 }
