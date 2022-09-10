@@ -2,9 +2,9 @@ let txtInput = document.querySelector("#input");
 let txtOutput = document.querySelector("#output");
 let btnTranslate = document.querySelector("#btn-translate");
 
-//let serverURL = "https://api.funtranslations.com/translate/sith.json";
+let serverURL = "https://api.funtranslations.com/translate/sith.json";
 
-let serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+// let serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function constructURL(){
   return serverURL + "?" + "text=" + txtInput.value;
